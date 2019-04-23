@@ -1,0 +1,33 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "This is a demo project that uses Vanilla JS to build a Single Page Application",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephizatt/currency-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephizatt/currency-converter/issues"
+  },
+  "homepage": "https://github.com/josephizatt/currency-converter#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2",
+    "jquery": "^3.4.0",
+    "semantic-ui-css": "^2.4.1",
+    "vanilla-router": "^1.2.7"
+  }
+}
